@@ -308,4 +308,37 @@ $shadow-transform: scale(0.98);
             cursor: pointer;
             }
 
+    .footer-container{
+        position: relative;
+        top:0px;
+        height:140px;
+        background-color: rgb(46, 46, 46);
+        font-family: Roboto;
+        }
+    
+        .footer-information{
+            color:white;
+            padding:30px;
+            margin-left:300px;
+            img{width:100px;
+                margin-bottom: 10px;
+                margin-left: 260px;
+                filter:invert(100%);}
+                }   
+    
+        .footerlist{
+            line-height:28px;
+            float:left;
+            margin-right:60px;
+            margin-top:10px;
             }
+    
+        .fa-utensils{
+            margin-right:10px;
+            }
+        
+        .fa-handshake-angle{
+            margin-right:10px;
+            }
+    
+    }
