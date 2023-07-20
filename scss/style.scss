@@ -1,0 +1,118 @@
+* {padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    }
+  
+  html {scroll-behavior: smooth;}
+  
+  body {height: 100vh;}
+  
+  a {color: inherit;
+    text-decoration: inherit;}
+  
+  ul {list-style-type: none;}
+  
+  button {border-style:none;}
+  
+  .loader {display: flex;
+          justify-content: center;
+          align-items: center;
+          position: fixed;
+          width: 100vw;
+          height: 100vh;
+          background: #f7f7f7;
+          z-index: 10;
+          animation: loading-fade 1s ease 1.3s forwards;
+          }
+  
+          .loader::after {
+              content: "";
+              width: 75px;
+              height: 75px;
+              border: 15px solid #ad86dd;
+              border-top: 15px solid#f7f7f7;
+              border-radius: 50%;
+              animation: loading 2s ease-in-out infinite;
+              }
+  
+   // VARIABLES//
+  
+  $header-color:#efefef;
+  $background-color: #f5f5f5;
+  $box-shadows: 6px 6px 15px #d5d5d595;
+  $shadow-transition: 0.3s;
+  $shadow-hover:6px 6px 15px #cac9c9;
+  $shadow-transform: scale(0.98);
+  
+  // MIXIN'S//
+  
+  @mixin choose-icon-position{
+      position: relative;
+      left:30px;
+      top:37px;
+      z-index: 2; 
+      }
+  
+  @mixin gradient-button{
+      border-radius: 40px;
+      background-image:linear-gradient(#FF79DA,#9356DC) ;
+      color: white;
+      box-shadow: $box-shadows;
+      transition: $shadow-transition;
+      }       
+  
+  // KEYFRAMES ANIMATIONS//
+  
+  @keyframes loading{
+      from {transform: rotate(0turn);}
+  
+      to {transform: rotate(3turn);}
+      }
+  
+  @keyframes loading-fade{
+      from {opacity: 100%;
+            visibility: visible;}
+  
+      to {opacity: 0%;
+          visibility: hidden;}
+      }
+  
+  @keyframes card-slide-up{
+      0% {opacity: 0;
+          margin-top: 50px;}
+  
+      100% {opacity: 1;
+            visibility: visible;}
+      }
+      
+  @keyframes spin{
+      0% {transform: rotate(0deg);}
+  
+      100% {transform: rotate(360deg);}
+      }
+  
+  // Homepage Desktop//
+  
+  @media screen and (min-width: 992px){
+  
+      header{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin:20px;
+          img{width:20%;}
+          }
+  
+      .search-form{
+          background-color: $header-color;
+          padding:15px 0px;
+          .location{text-align: center;}
+          .fa-map-marker-alt{position: relative;
+                             left: 25px;}
+          input{border-style:none;
+                font-size: 14px;
+                font-family:Roboto;
+                text-align: center;
+                background-color: $header-color;}
+              }
+            }
