@@ -343,4 +343,263 @@ button {
   .fa-handshake-angle {
     margin-right: 10px;
   }
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  header img {
+    width: 20%;
+  }
+  .search-form {
+    background-color: #efefef;
+    padding: 15px 0px;
+  }
+  .search-form .location {
+    text-align: center;
+  }
+  .search-form .fa-map-marker-alt {
+    position: relative;
+    left: 25px;
+  }
+  .search-form input {
+    border-style: none;
+    font-size: 14px;
+    font-family: Roboto;
+    text-align: center;
+    background-color: #efefef;
+  }
+  .home-page-description-and-how {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    margin: 0;
+    border-radius: 20px;
+    align-items: center;
+    font-family: Roboto;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f5f5f5;
+  }
+  .description button {
+    cursor: pointer;
+  }
+  .description h3 {
+    padding: 30px;
+    font-weight: bold;
+  }
+  .description p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .explore {
+    border-radius: 40px;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    box-shadow: 6px 6px 15px rgba(213, 213, 213, 0.5843137255);
+    transition: 0.3s;
+    padding: 15px;
+    margin-bottom: 45px;
+  }
+  .explore:hover {
+    box-shadow: 6px 6px 15px #cac9c9;
+    transform: scale(0.98);
+  }
+  .how-it-works-container {
+    font-family: Roboto;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1 1 0px;
+    margin: 0;
+  }
+  .how-it-works-container h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .how-it-works-nested {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  .how-form {
+    width: 100%;
+    margin: 5px 0px;
+    z-index: 3;
+  }
+  .how-number {
+    font-size: 12px;
+    color: white;
+    background-color: #9356DC;
+    padding: 3px 7px;
+    border-radius: 100%;
+    position: relative;
+    right: 5px;
+    top: 36px;
+    z-index: 1;
+  }
+  .fa-mobile-screen-button {
+    position: relative;
+    left: 30px;
+    top: 37px;
+    z-index: 2;
+  }
+  .choose-1 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 60px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 6px 6px 15px rgba(213, 213, 213, 0.5843137255);
+    transition: 0.3s;
+  }
+  .choose-1:hover {
+    box-shadow: 6px 6px 15px #cac9c9;
+    transform: scale(0.98);
+    background-color: #f1e6ff;
+  }
+  .fa-list-ul {
+    position: relative;
+    left: 30px;
+    top: 37px;
+    z-index: 2;
+  }
+  .fa-store {
+    position: relative;
+    left: 30px;
+    top: 37px;
+    z-index: 2;
+  }
+  #restaurants-container {
+    background-color: #f5f5f5;
+    font-family: Roboto;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+  }
+  #restaurants-container h3 {
+    padding: 30px 0px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .restaurant-nested-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .restaurant-nested-container .tablet-group-1 {
+    display: flex;
+  }
+  .restaurant-nested-container .tablet-group-2 {
+    display: flex;
+  }
+  .new-sign {
+    position: relative;
+    top: 47px;
+    right: 76px;
+    background-color: #99E2D0;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 30px;
+    padding: 5px 25px;
+    border-radius: 2px;
+    z-index: 1;
+  }
+  .new-sign p {
+    font-size: 15px;
+    color: #388a75;
+    font-weight: bold;
+  }
+  .new-sign-2 {
+    position: relative;
+    left: 240px;
+    top: 16px;
+  }
+  .restaurants-card1 {
+    width: 280px;
+    height: 190px;
+    margin: 15px 15px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 6px 6px 15px rgba(213, 213, 213, 0.5843137255);
+    transition: 0.3s;
+  }
+  .restaurants-card1 img {
+    width: 280px;
+    height: 120px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .restaurants-card1:hover {
+    box-shadow: 6px 6px 15px #cac9c9;
+    transform: scale(0.98);
+  }
+  .card-1-info {
+    padding: 10px;
+    line-height: 22px;
+  }
+  .fa-stack {
+    font-size: 25px;
+    position: relative;
+    left: 220px;
+    bottom: 65px;
+  }
+  .full-heart {
+    opacity: 0;
+    background: linear-gradient(#9356DC, #FF79DA 75%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 25px;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+  }
+  .full-heart:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .footer-container {
+    position: relative;
+    top: 0px;
+    height: 140px;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    font-family: Roboto;
+  }
+  .footer-information {
+    color: white;
+    padding: 30px;
+    margin-left: 80px;
+  }
+  .footer-information img {
+    width: 100px;
+    margin: 0px 54px 10px 0px;
+    align-items: center;
+    filter: invert(100%);
+  }
+  .footerlist {
+    line-height: 28px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  .fa-utensils {
+    margin-right: 10px;
+  }
+  .fa-handshake-angle {
+    margin-right: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
