@@ -991,4 +991,18 @@ button {
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+  .green-tick {
+    position: relative;
+    bottom: 52px;
+    left: 276px;
+    margin-left: 45px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 23px 16px 21px 15px;
+    background-color: #99E2D0;
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: 0.5s ease;
+  }
 }/*# sourceMappingURL=style.css.map */
