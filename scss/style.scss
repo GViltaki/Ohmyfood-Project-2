@@ -844,6 +844,257 @@ and (max-width: 992px) {
 
   }
 
+// Menu pages tablet//
+
+@media only screen 
+and (min-width: 767px)
+and (max-width: 992px) {
+
+    header img{
+        width:20%;
+        align-items: center;
+        }
+
+    .fa-arrow-left{
+        position: relative;
+        right:340px;
+        bottom:30px;
+        font-size: 25px;
+        }
+    
+        .fa-arrow-left:hover{
+            cursor: pointer;
+            }
+    
+    .the-full-palette-img img{
+        width:40%;
+        height:948px;
+        object-fit: cover;
+        position: relative;
+        bottom:25px;
+        display: block;
+        }
+
+        .enchanted-img img{
+            height:1000px;          
+            }
+    
+    .palette-heart{
+        position: relative;
+        left:300px;
+        bottom:42px;
+        font-size: 23px;
+        }
+
+        .full-heart {
+            opacity: 0;
+            background: linear-gradient(#9356DC, #FF79DA 75%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            font-size: 25px;
+            -webkit-text-fill-color: transparent;
+            transition: 0.3s;
+            }
+
+            .full-heart:hover {
+            opacity: 1;
+            cursor: pointer;
+            }
+    
+    .menu-main-container{
+        display: flex;
+        flex-direction: column;
+        background-color: $background-color;
+        height:950px;
+        width:65%;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        position: absolute;
+        left:35%;
+        bottom:10px;
+        .enchanted-title{margin-bottom:30px;}
+        h2{font-family: Shrikhand;
+            padding:20px 30px 0px 30px;}    
+        .enchanted-heart{position: relative;
+                        bottom:70px;}
+        .bastille-heart{position: relative;
+                        bottom:70px;}
+        }
+    
+
+    .enchanted-main{
+        position: absolute;
+        bottom:0px;
+        top:65px;
+        height:1000px;
+        }
+    
+    .menu-main-nested-container{
+        display: flex;
+        flex-direction: column;
+        }
+
+        .menu-dishes{
+            position: relative;
+            bottom:30px;
+            display: flex;
+            flex-direction: column;
+            h4{font-family: Roboto;
+                font-weight: lighter;
+                margin-left:30px;
+                margin-bottom:10px;
+                line-height: 15px;}
+                }
+    
+            .green-line{
+                width:150px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+                position: relative;
+                left:30px;
+                h4{position: relative;
+                right:30px;}
+                }
+
+            .menu-border{
+                border-bottom: solid 2px #99E2D0 ;
+                width: 40px;
+                }
+            
+        .dishes-button{
+            h4{margin-left:0px;
+                font-size: 15px;
+                font-weight: bold;}
+            h5{font-weight: lighter;
+                    font-size:12px}
+            overflow: hidden;
+            text-align: left;
+            font-family: Roboto;
+            background-color: white;
+            margin:5px 20px 5px 20px;
+            width:65%;
+            height:60px;
+            border-radius: 15px;
+            padding:17px;
+            line-height: 5px;
+            box-shadow: $box-shadows;
+            transition: $shadow-transition;
+            transition: 0.3s;
+            animation: card-slide-up 2s ease-in-out forwards;
+            .price{font-size:12px;
+                    position: relative;
+                    left:260px;
+                    bottom:6px;
+                    transition: 0.5s ease;}
+            }
+        
+            .dishes-button:hover{
+                box-shadow: $shadow-hover;
+                transform: $shadow-transform;
+                cursor: pointer;
+                .green-tick{display: flex;
+                            margin-left:0px;
+                            i{animation: spin 0.5s;}}
+                .price{left:237px;}
+                }
+    
+            .dishes-button-text{
+                flex: 1;
+                min-width: 0;
+                h5{white-space: nowrap;
+                    text-overflow: ellipsis;}
+                }
+
+            .main{
+                margin-top:0px;
+                }
+    
+            .desserts{
+                margin-top:0px;
+                }
+    
+            .green-tick{
+                position: relative;
+                bottom:52px;
+                left:265px;
+                margin-left:45px;
+                border-bottom-right-radius: 15px;
+                border-top-right-radius: 15px;
+                padding:23px 16px 21px 15px;
+                background-color: #99E2D0;
+                color: white;
+                width:fit-content;
+                transition: 0.5s ease;
+                }
+            
+        .order{
+            position: relative;
+            top:0px;
+            left:160px;
+            width:100px;
+            margin-bottom:50px;
+            }
+            
+        .order-text{
+            padding:10px 55px 10px 55px;
+            @include gradient-button;
+            cursor: pointer;
+            }
+        
+            .order-text:hover{
+                box-shadow: $shadow-hover;
+                transform: $shadow-transform;
+                }
+                
+    .footer-container{
+        position: relative;
+        top:0px;
+        height:140px;
+        background-color: rgb(46, 46, 46);
+        font-family: Roboto;
+        }
+
+
+    .menu-1-footer{
+        margin-top:-25px;
+        }
+
+        .menu-2-footer{
+            margin-top:-50px;
+            width:769px;
+            position: relative;
+            top: 23px;
+            }
+        
+        .footer-information{
+            color:white;
+            padding:30px;
+            margin-left:40px;
+            img{width:100px;
+                margin-bottom: 10px;
+                margin-left: 15px;
+                filter:invert(100%);}
+                }   
+    
+        .footerlist{
+            line-height:28px;
+            float:left;
+            margin-right:60px;
+            margin-top:10px;
+            }
+    
+        .fa-utensils{
+            margin-right:10px;
+            }
+        
+        .fa-handshake-angle{
+            margin-right:10px;
+            }
+
+}
+
+// Menu pages iphone 8//
+
   @media only screen 
   and (min-width: 375px) 
   and (max-width: 767px) 
