@@ -1004,4 +1004,41 @@ and (max-width: 992px) {
             width:fit-content;
             transition: 0.5s ease;
             }
-        }
+
+        .main{
+            margin-top:30px;
+            }
+    
+        .desserts{
+            margin-top:30px;
+            }
+            
+        .order{
+            position: relative;
+            top:30px;
+            left:115px;
+            }
+                
+        .order-text{
+            padding:10px 55px 10px 55px;
+            @include gradient-button;
+            }
+            
+            .order-text:hover{
+                box-shadow: $shadow-hover;
+                transform: $shadow-transform;
+                }
+                
+        footer{
+            height:10px;
+            .menu-1-footer{position: relative;
+                            top:-40px;} 
+            .menu-2-footer{position: relative;
+                            top:70px;
+                            i{position: relative;
+                            left:0px;
+                            top:4px;
+                            font-size:16px;}}
+            }
+    
+    }
