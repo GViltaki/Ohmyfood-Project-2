@@ -836,4 +836,159 @@ button {
   .fa-handshake-angle {
     margin-right: 10px;
   }
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .fa-arrow-left {
+    position: relative;
+    right: 140px;
+    bottom: 25px;
+    font-size: 20px;
+  }
+  .fa-arrow-left:hover {
+    cursor: pointer;
+  }
+  .the-full-palette-img img {
+    width: 100%;
+  }
+  .palette-heart {
+    font-size: 25px;
+    position: relative;
+    left: 300px;
+    bottom: 45px;
+  }
+  .full-heart {
+    opacity: 0;
+    background: linear-gradient(#9356DC, #FF79DA 75%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 25px;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+  }
+  .full-heart:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .menu-main-container {
+    background-color: #f5f5f5;
+    height: 1020px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    position: relative;
+    bottom: 40px;
+  }
+  .menu-main-container h2 {
+    font-family: Shrikhand;
+    padding: 30px 30px 0px 30px;
+  }
+  .menu-main-container .enchanted-title {
+    font-size: 30px;
+  }
+  .menu-main-container .enchanted-heart {
+    position: relative;
+    bottom: 90px;
+    left: 300px;
+  }
+  .menu-main-container .bastille-heart {
+    position: relative;
+    bottom: 47px;
+  }
+  .menu-main-container .gourmand-heart {
+    position: relative;
+    bottom: 45px;
+  }
+  .enchanted-main {
+    margin-bottom: -110px;
+    height: 1140px;
+  }
+  .bastille-main {
+    height: 1030px;
+  }
+  .menu-main-nested-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-dishes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-dishes h4 {
+    font-family: Roboto;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    line-height: 15px;
+  }
+  .green-line {
+    width: 150px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 30px;
+  }
+  .green-line h4 {
+    position: relative;
+    right: 30px;
+  }
+  .menu-border {
+    border-bottom: solid 2px #99E2D0;
+    width: 40px;
+  }
+  .dishes-button {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-family: Roboto;
+    background-color: white;
+    margin: 5px 20px 5px 20px;
+    width: 90%;
+    height: 60px;
+    border-radius: 15px;
+    padding: 17px;
+    line-height: 5px;
+    box-shadow: 6px 6px 15px rgba(213, 213, 213, 0.5843137255);
+    transition: 0.3s;
+    transition: 0.3s;
+    animation: card-slide-up 2s ease-in-out forwards;
+  }
+  .dishes-button h4 {
+    margin-left: 0px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .dishes-button h5 {
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  .dishes-button .price {
+    font-size: 12px;
+    position: relative;
+    left: 277px;
+    bottom: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: 0.5s ease;
+  }
+  .dishes-button:hover {
+    box-shadow: 6px 6px 15px #cac9c9;
+    transform: scale(0.98);
+  }
+  .dishes-button:hover .green-tick {
+    display: flex;
+    margin-left: 0px;
+  }
+  .dishes-button:hover .green-tick i {
+    animation: spin 0.5s;
+  }
+  .dishes-button:hover .price {
+    left: 243px;
+  }
+  .dishes-button-text {
+    flex: 1;
+    min-width: 0;
+  }
+  .dishes-button-text h5 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 }/*# sourceMappingURL=style.css.map */

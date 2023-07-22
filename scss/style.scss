@@ -843,3 +843,153 @@ and (max-width: 992px) {
         }
 
   }
+
+  @media only screen 
+  and (min-width: 375px) 
+  and (max-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+      
+  .fa-arrow-left{
+      position: relative;
+      right:140px;
+      bottom:25px;
+      font-size: 20px;
+      }
+  
+      .fa-arrow-left:hover{
+          cursor: pointer;
+          }
+  
+  .the-full-palette-img{
+      img{width:100%;}
+      }
+  
+      .palette-heart{
+          font-size:25px;
+          position: relative;
+          left:300px;
+          bottom:45px;
+          }
+  
+          .full-heart {
+              opacity: 0;
+              background: linear-gradient(#9356DC, #FF79DA 75%);
+              -webkit-background-clip: text;
+              background-clip: text;
+              font-size: 25px;
+              -webkit-text-fill-color: transparent;
+              transition: 0.3s;
+              }
+  
+              .full-heart:hover {
+              opacity: 1;
+              cursor: pointer;
+              }
+  
+  .menu-main-container{
+      background-color: $background-color;
+      height:1020px;
+      border-top-right-radius: 30px;
+      border-top-left-radius: 30px;
+      position: relative;
+      bottom:40px;
+      h2{font-family: Shrikhand;
+          padding:30px 30px 0px 30px;}
+          .enchanted-title{font-size: 30px;}
+          .enchanted-heart{position: relative;
+                           bottom:90px;
+                           left:300px;}
+          .bastille-heart{position: relative;
+                          bottom:47px;}
+          .gourmand-heart{position: relative;
+                          bottom:45px;}
+      }
+  
+  .enchanted-main{
+      margin-bottom:-110px;
+      height:1140px;
+      }
+  
+  .bastille-main{
+      height:1030px;
+      }
+  
+  .menu-main-nested-container{
+      display: flex;
+      flex-direction: column;
+      }
+  
+      .menu-dishes{
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          h4{font-family: Roboto;
+              font-weight: lighter;
+              margin-left:30px;
+              margin-bottom:10px;
+              line-height: 15px;}
+              }
+  
+          .green-line{
+              width:150px;
+              margin-bottom: 10px;
+              position: relative;
+              left:30px;
+              h4{position: relative;
+                  right:30px;}
+              }
+  
+          .menu-border{
+              border-bottom: solid 2px #99E2D0 ;
+              width: 40px;
+              }
+              
+           
+      
+      .dishes-button{
+          h4{margin-left:0px;
+              font-size: 15px;
+              font-weight: bold;}
+          h5{font-weight: lighter;
+                  font-size:12px}
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-align: left;
+          font-family: Roboto;
+          background-color: white;
+          margin:5px 20px 5px 20px;
+          width:90%;
+          height:60px;
+          border-radius: 15px;
+          padding:17px;
+          line-height: 5px;
+          box-shadow: $box-shadows;
+          transition: $shadow-transition;
+          transition: 0.3s;
+          animation: card-slide-up 2s ease-in-out forwards;
+          .price{font-size:12px;
+                  position: relative;
+                  left:277px;
+                  bottom:5px;
+                  width:fit-content;
+                  transition: 0.5s ease;
+                  }
+          }
+  
+          .dishes-button:hover{
+              box-shadow: $shadow-hover;
+              transform: $shadow-transform;
+              .green-tick{display: flex;
+                  margin-left:0px;
+                  i{animation: spin 0.5s;}}
+              .price{left:243px;}
+              }
+  
+              .dishes-button-text{
+                  flex: 1;
+                  min-width: 0;
+                  h5{white-space: nowrap;
+                      text-overflow: ellipsis;}
+                  }
+    }
