@@ -1,7 +1,5 @@
 ## ohmyfood project
 
-Here is the link to my website <file:///C:/Users/user/Documents/oh_my_food_gabriella/home.page.html>
-
 This is a multipage project based around ohmyfood. This company allows the user to choose a location in which they would like to view restaurants in. For this particular project, the location was Paris, Belleville. Each menu page is linked back to the homepage via the arrow button in the top left-hand corner.
 
 ### Animations to look out for:
