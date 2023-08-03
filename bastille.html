@@ -12,30 +12,40 @@
     <body> 
 
         <header>
-            <img src="images/logo/ohmyfood.png" alt="ohmyfood logo"> 
-            <a href="home.page.html" rel="homepage"> <i class="fa-solid fa-arrow-left"></i></a>
+            <div class="menu-page-header">
+                <div class="back-arrow">
+                    <a href="home.page.html" rel="homepage"> <i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <img src="images/logo/ohmyfood.png" alt="ohmyfood logo">        
+            </div>
         </header>
 
-        <div class="the-full-palette-img enchanted-img">
-            <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="The Enchanted Plate">
+
+    <div class="tablet-menu-body">
+
+        <div class="menu-page-img">
+            <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Bastille" class="crop-image">
         </div>
+        
 
         <!-- WHOLE MENU -->
-        <div class="menu-main-container enchanted-main bastille-main">
+        <div class="menu-main-container">
 
-            <h2 class="enchanted-title">Bastille</h2>
-
-            <!-- HEART STACK ICON -->
-            <i class="fa-stack fa-stack-homepage palette-heart enchanted-heart bastille-heart">
-                <i class="fa-regular fa-heart fa-stack-1x "></i>
-                <i class="fa-solid fa-heart fa-stack-1x full-heart "></i> 
-            </i>
-
+            <div class="title-and-heart">
+                <h2>Bastille</h2>
+                <!-- HEART STACK ICON -->
+                <i class="fa-stack fa-stack-homepage palette-heart">
+                    <i class="fa-regular fa-heart fa-stack-1x "></i>
+                    <i class="fa-solid fa-heart fa-stack-1x full-heart "></i> 
+                </i>
+            </div>
+            
             <!-- THREE COURSES -->
-            <div class="menu-main-nested-container enchanted-nested">
+            <div class="menu-main-nested-container"> 
                 
-                <div class="menu-dishes entrees">
-                    <!-- ENTREES -->
+                <!-- ENTREES -->
+                <div class="menu-dishes">
+                    
                     <div class="green-line">
                         <h4>ENTREES</h4>
                         <div class="menu-border"></div>
@@ -43,95 +53,116 @@
 
                     <div class="dishes-button"> 
                         <div class="dishes-button-text">
-                            <h4>Citrus Squid Carpaccio</h4>
+                            <h4 class="dishes-title">Citrus Squid Carpaccio</h4>
                             <h5>With orange zest</h5>
                         </div>
-                        <div class="price">
+
+                        <div class="price-and-tick">
+                            <div class="price">
                             <p><b>25€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"><i class="fa-sharp fa-solid fa-circle-check"></i></div> 
+                            </div>
                         </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
-                        </div>
+
                     </div>
 
                     <div class="dishes-button"> 
                         <div class="dishes-button-text">
-                            <h4>Grandmother's Vegetable Soup</h4>
+                            <h4 class="dishes-title">Grandmother's Vegetable soup</h4>
                             <h5>Carrots, parsnips, Jerusalem artichoke</h5>
                         </div>
-                        <div class="price">
-                            <p><b>35€</b></p>
-                        </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>35€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"><i class="fa-sharp fa-solid fa-circle-check"></i></div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="dishes-button"> 
                         <div class="dishes-button-text">
-                            <h4>Onion Soup</h4>
+                            <h4 class="dishes-title">Onion Soup</h4>
                             <h5>Revisited</h5>
                         </div>
-                        <div class="price">
-                            <p><b>20€</b></p>
-                        </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>20€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"><i class="fa-sharp fa-solid fa-circle-check"></i></div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="menu-dishes main">
-                    <!-- MAIN DISH -->
+                <!-- MAIN DISHES -->
+                <div class="menu-dishes">
+                    
                     <div class="green-line">
-                        <h4 >MAIN DISH</h4>
+                        <h4>MAIN DISH</h4>
                         <div class="menu-border"></div>
                     </div>
 
                     <div class="dishes-button"> 
                         <div class="dishes-button-text">
-                            <h4>Scallops</h4>
+                            <h4 class="dishes-title">Scallops</h4>
                             <h5>With mashed parsnips</h5>
                         </div>
-                        <div class="price">
-                            <p><b>40€</b></p>
-                        </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>40€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"> <i class="fa-sharp fa-solid fa-circle-check"></i> </div>
+                            </div>
                         </div>
                     </div>
 
                     <div class="dishes-button"> 
                         <div class="dishes-button-text">
-                            <h4>Margret de Canard</h4>
+                            <h4 class="dishes-title">Magret de canard</h4>
                             <h5>With mashed potatoes</h5>
                         </div>
-                        <div class="price">
-                            <p><b>35€</b></p>
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>35€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"><i class="fa-sharp fa-solid fa-circle-check"></i> </div>
+                            </div>
                         </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
+                    </div>
+                
+                    <div class="dishes-button"> 
+                        <div class="dishes-button-text">
+                            <h4 class="dishes-title">Game Hen</h4>
+                            <h5>With vegetable gnocchis</h5>
+                        </div>
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>44€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"><i class="fa-sharp fa-solid fa-circle-check"></i></div> 
+                            </div>
                         </div>
                     </div>
                     
-                    <div class="dishes-button"> 
-                        <div class="dishes-button-text">
-                            <h4>Game Hen</h4>
-                            <h5>With vegetable gnocchis</h5>
-                        </div>
-                        <div class="price">
-                            <p><b>44€</b></p>
-                        </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
-                        </div>
-                    </div>
-                        
                 </div>
-    
-                <div class="menu-dishes desserts">
-                    <!-- DESSERTS -->
+
+                <!-- DESSERTS -->
+                <div class="menu-dishes">
+                    
                     <div class="green-line">
                         <h4 >DESSERTS</h4>
                         <div class="menu-border"></div>
@@ -139,43 +170,52 @@
 
                     <div class="dishes-button"> 
                         <div class="dishes-button-text">
-                            <h4>Floral Ice Cream</h4>
-                            <h5>With hazelnut butter</h5>
+                            <h4 class="dishes-title">Floral Ice Cream</h4>
+                            <h5>With hezelnut butter</h5>
                         </div>
-                        <div class="price">
-                            <p><b>18€</b></p>
-                        </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
-                        </div>
-                    </div>
-                        
-                    <div class="dishes-button"> 
-                        <div class="dishes-button-text">
-                            <h4>Chocolate Lava Cake</h4>
-                            <h5>Revisited</h5>
-                        </div>
-                        <div class="price">
-                            <p><b>22€</b></p>
-                        </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>18€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"> <i class="fa-sharp fa-solid fa-circle-check"></i> </div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="dishes-button"> 
                         <div class="dishes-button-text">
-                            <h4>Napolean</h4>
-                            <h5>With blueberries and marzipan</h5>
+                            <h4 class="dishes-title">Chocolate Lava Cake</h4>
+                            <h5>Revisited</h5>
                         </div>
-                        <div class="price">
-                            <p><b>23€</b></p>
-                        </div>
-                        <div class="green-tick">
-                            <i class="fa-sharp fa-solid fa-circle-check"></i> 
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>22€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"><i class="fa-sharp fa-solid fa-circle-check"></i> </div>
+                            </div>
                         </div>
                     </div>
-        
+                
+                    <div class="dishes-button"> 
+                        <div class="dishes-button-text">
+                            <h4 class="dishes-title">Napolean</h4>
+                            <h5>With blueberries and marzipan</h5>
+                        </div>
+
+                        <div class="price-and-tick">
+                            <div class="price">
+                                <p><b>23€</b></p>
+                            </div>
+                            <div class="green-tick">
+                                <div class="tick-icon"><i class="fa-sharp fa-solid fa-circle-check"></i> </div>
+                            </div>
+                        </div>
+                    </div>
+                        
                 </div>
 
             </div>
@@ -190,22 +230,29 @@
             </div>
 
         </div>
+    </div>
 
-        <!-- FOOTER  -->
+        <!-- FOOTER -->
         <footer>
-            <div class="footer-container menu-1-footer menu-2-footer menu-3-footer">
+
+            <div class="footer-container footer-container-menu">
 
                 <div class="footer-information">
                     <img src="images/logo/ohmyfood.png" alt="ohmyfood logo"> 
+                    
+                    <div class="footer-nested-container">
                     <ul>
                         <li class="footerlist"><a href="#"><i class="fa-solid fa-utensils"></i>Suggest a restaurant</a></li>
                         <li class="footerlist"><a href="#"><i class="fa-sharp fa-solid fa-handshake-angle"></i>Become a partner</a></li>
                         <li class="footerlist"><a href="#">Legal</a></li>
                         <li class="footerlist"><a href="mailto:j.ohmyfood@gmail.com">Contact</a></li>
                     </ul>
+                    </div>
+                    
                 </div>   
 
             </div>
+
         </footer>
-    
+
     </body>
