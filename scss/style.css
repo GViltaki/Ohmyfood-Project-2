@@ -485,8 +485,8 @@ button {
     background-color: white;
     margin: 5px 20px 5px 20px;
     width: auto;
-    height: 95px;
-    border-radius: 15px;
+    height: 70px;
+    border-radius: 20px;
     padding: 17px;
     line-height: 5px;
     box-shadow: 6px 6px 15px rgba(213, 213, 213, 0.5843137255);
@@ -500,13 +500,12 @@ button {
     flex: 1;
     min-width: 100px;
     white-space: nowrap;
-    overflow: hidden;
   }
   .dishes-button .dishes-title {
     font-weight: bold;
     height: -moz-fit-content;
     height: fit-content;
-    line-height: 35px;
+    line-height: 15px;
   }
   .dishes-button h5 {
     font-weight: lighter;
@@ -553,7 +552,7 @@ button {
   .tick-icon {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    padding: 40px 16px;
+    padding: 30px 20px;
     background-color: #99E2D0;
     color: white;
     width: -moz-fit-content;
